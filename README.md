@@ -1,2 +1,117 @@
-# Ministry-of-Rewriting-v0.5.2
-Ministry of Rewriting lets you customize Helldivers 2 texts in all 15 game languages. Rename stratagems, rewrite weapon descriptions, menus and more. Includes search, categories, a modified-text view, reset options and a checker for game texts. Save multiple edits, export your mod and deploy with Arsenal Mod Manager. No Lua required. By Buschfuss.
+Ministry of Rewriting
+
+Your texts. Your democracy.
+
+Ever wanted to rename the Eagle 500kg Bomb to Yeetinator3000? Change your ship's name, give your weapons ridiculous titles, or rewrite the very words of Super Earth?
+Now you can.
+
+Welcome to Ministry of Rewriting, a powerful yet easy-to-use text customization tool for Helldivers 2.
+Choose from over 22,000 in-game text entries and make Helldivers 2 truly your own.
+Rename your stratagems, weapons, armor, capes, player titles, enemies, planets, equipment, menus, buttons, mission objectives, tooltips, tutorials, descriptions, notifications, and practically anything else displayed as text in Helldivers 2.
+Whether you want to make your game funnier, more immersive, completely ridiculous, or simply more personal, the Ministry puts the words of Super Earth in your hands.
+No programming knowledge required. No complicated modding procedures. Just find a text, rewrite it, and deploy your changes through Arsenal.
+Created by Buschfuss.
+
+What can you customize?
+
+With more than 22,000 text entries available, the possibilities are enormous.
+Stratagems & Support: Rename orbital strikes, Eagle attacks, sentries, support weapons, backpacks, and their descriptions.
+Weapons & Equipment: Customize weapon names, armor, helmets, capes, grenades, melee weapons, equipment descriptions, and more.
+Player Identity: Change player titles, rank names, ship names, and other displayed identity-related texts.
+Enemies & Factions: Rename enemy types, factions, and their descriptions.
+Planets & Galaxy: Give planets new names and rewrite galactic information and descriptions.
+Missions & Objectives: Customize mission names, objectives, briefings, and mission-related messages.
+Menus & Navigation: Rewrite menu labels, buttons, navigation elements, and interface descriptions.
+HUD & Indicators: Change displayed interface texts, notifications, status messages, and indicators.
+Tutorials & Tips: Rewrite loading screen tips, gameplay instructions, tutorials, and helpful hints.
+Progression & Rewards: Customize progression-related texts, rewards, unlock descriptions, and more.
+Multiplayer & Social: Modify social interface labels and multiplayer-related messages.
+World & News: Rewrite in-game news, announcements, and other world-related texts.
+And that's just the beginning.
+If it's part of the game's supported text library, chances are you can rewrite it.
+
+Main features
+
+Over 22,000 customizable texts: Explore a massive library of in-game text entries across 15 game language variants.
+All 15 game language variants: Select the language you actually use in Helldivers 2.
+Multilingual editor interface: Choose your editor language independently from your game language.
+Organized categories and powerful search: Quickly find specific texts without manually browsing thousands of entries.
+Simple editing: Double-click a text, enter your replacement, and save.
+Batch exports: Modify as many entries as you want and export all saved changes together.
+Modified texts overview: Easily find, review, and manage every customization you've made.
+Restore original texts: Reset individual entries or restore everything to its original state.
+Game text update checker: Scan your installed Helldivers 2 files for new or removed text entries after game updates.
+Built-in instructions: Access a step-by-step usage guide directly inside the editor.
+No programming or Lua knowledge required.
+Compatible with the current Easy Anti-Cheat environment through Arsenal-based text resource modifications.
+Requirements
+
+Helldivers 2 for PC.
+Arsenal Mod Manager.
+Windows x64 with .NET Framework 4.8.
+A writable folder outside your game installation for the editor and its files.
+The editor is currently unsigned and released as an Alpha.
+
+Installation and first use
+
+Download the Ministry of Rewriting ZIP and extract it into a writable folder outside your Helldivers 2 installation.
+Open Editor/Ministry-of-Rewriting.exe.
+Select your actual game language. Under Settings, you can separately change the editor's interface language.
+Browse the categories or use the search function to find the text you want to customize.
+Double-click an entry, enter your replacement text, and click Save. Repeat for as many entries as you like.
+Click Export all changes when you're finished. Your customized mod ZIP will be created in Editor/Exports/.
+In Arsenal, use Add Mod → Files to import the exported ZIP. If an earlier version of your custom mod is already installed, replace it and keep only one active version.
+Enable the mod and its Custom texts option.
+Make sure Helldivers 2 is closed, click Deploy in Arsenal, and wait for deployment to finish.
+Launch Helldivers 2 using the same game language you selected in the editor.
+Important: Import the ZIP generated by the editor to apply your personal edits. Importing the original download alone does not include changes you made afterward.
+
+Example: Yeetinator3000
+
+Want to give the Eagle 500kg Bomb a more appropriate name?
+Select English as your game language.
+Search for the Eagle 500kg Bomb in the editor.
+Open the relevant name entry.
+Replace its original name with Yeetinator3000.
+Save your changes and export your customized ZIP.
+Import the exported ZIP into Arsenal and deploy it.
+Launch Helldivers 2 in English and enjoy your newly renamed stratagem.
+Some names appear in multiple text entries. You may need to edit more than one entry to change every occurrence.
+The same process works for thousands of other texts throughout the game.
+
+Saving, resetting and updating
+
+Saving your changes
+Clicking Save stores your edits locally in the editor. Export all changes creates a mod ZIP containing your saved customizations.
+Previously exported ZIP files do not update automatically. After making additional changes, export and deploy again.
+Restoring original texts
+To undo a single edit, double-click its entry and select Restore default.
+To remove all customizations, use the full reset option in Settings and confirm the warning.
+Export and deploy again to apply restored texts in-game.
+Checking for new game texts
+After a Helldivers 2 update, open Settings, select your game installation folder, and click Check for new game texts.
+The editor scans the game's text resources for changes without modifying the original game files.
+Existing edits are preserved where possible. Entries whose original text has changed may require review before exporting again.
+Updating the editor
+When updating Ministry of Rewriting, close the editor and replace only the executable.
+Keep your current.*.textproject.json files, editor.settings.json, and updates folder to preserve your customizations and settings.
+
+Important information
+
+Changes take effect after exporting, importing into Arsenal, deploying, and restarting the game. Live editing is not currently supported.
+Ministry of Rewriting changes displayed text only. Renaming weapons, stratagems, or equipment does not modify their functionality, damage, statistics, or gameplay behavior.
+Keep required placeholders and formatting tags intact to prevent broken or incorrectly displayed texts.
+Some names and descriptions exist in multiple text entries and may require multiple edits.
+Other mods that replace the same text resources may conflict, even when they modify different entries. For your first export, test with other text mods disabled.
+The editor does not deploy mods or launch Helldivers 2 automatically.
+No Lua, process injection, or game-memory editing is used.
+The editor never writes directly to your game installation. Deployment is handled by Arsenal.
+Anti-cheat compatibility does not constitute an official guarantee or endorsement from Arrowhead or the anti-cheat provider.
+Support and feedback
+
+Found a missing text, an incorrect category, a translation issue, or a bug?
+Please include your game language, editor version, and the affected text when reporting an issue.
+Click the Discord button inside the editor to join our community, share your creations, or get help.
+Alternatively, you can open a support ticket on Respawn Nation for further assistance.
+Your feedback helps improve Ministry of Rewriting and expand its possibilities.
+Thanks to everyone testing the editor, reporting issues, and sharing their customizations.
